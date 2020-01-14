@@ -49,4 +49,6 @@ public abstract class BoardService {
 	public abstract int update(BoardDto dto);
 	public abstract int insert(BoardDto dto);
 	public abstract int delete(BoardDto dto);
+	public abstract void close();
+	public abstract List<BoardDto> search(String keyword);
 }

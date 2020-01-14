@@ -55,5 +55,10 @@ public class BoardDto {
 	public void setHit(int hit) {
 		this.hit = hit;
 	}
+	@Override
+	public String toString() {
+		return "[board_id=" + board_id + ", writer=" + writer + ", writedate=" + writedate + ", title=" + title
+				+ ", subject=" + subject + ", hit=" + hit + "]";
+	}
 
 }
